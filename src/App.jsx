@@ -15,14 +15,12 @@ const Contenedor = styled.div`
     column-gap: 2rem;
   }
 `
-
 const Imagen = styled.img`
   max-width: 400px;
   width: 80%;
   margin: 100px auto 0 auto;
   display: block;
 `
-
 const Heading = styled.h1`
   font-family: 'Lato', sans-serif;
   color: #fff;
@@ -41,8 +39,6 @@ const Heading = styled.h1`
     margin: 10px auto 0 auto;
   }
 `
-
-
 function App() {
 
   const [monedas, setMonedas] = useState({})
